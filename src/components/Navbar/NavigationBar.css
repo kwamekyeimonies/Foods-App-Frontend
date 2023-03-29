@@ -1,0 +1,175 @@
+.navigation__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.navigation__left{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.navigation__logo{
+    margin-right: 2rem;
+   
+}
+
+.navigation__links{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;   
+}
+
+.navigation__links a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: black;
+}
+
+.navigation__right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navigation__login__link{
+    margin-top: 20px;
+}
+
+.navigation__buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navigation__buttons a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+.navigation__links p,
+.navigation__buttons p,
+.navigation__bar__sub_container p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1 rem;
+    cursor: pointer;
+    padding: 15px;
+    
+}
+
+
+.navigation__header{
+    font-weight: bolder;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+.navigation__header a{
+    text-decoration: none;
+    color: black;
+}
+
+.navigation__buttons button,
+.sub_navigation__buttons button{
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+     background: #dcd3d1;
+}
+
+.navigation__sub_menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+
+.navigation__bar__sub_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+.navigation__bar__sub_container p{
+    margin: 1rem 0;
+}
+
+.sub_navigation__links a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.sub_navigation__buttons{
+    cursor: pointer;
+}
+
+@media screen and (max-width:1050px){
+    .navigation__links{
+        display: none;
+    }
+
+    .navigation__sub_menu{
+        display: flex;
+    }
+}
+
+@media screen and (max-width:700px) {
+    
+}
+
+@media screen and (max-width:550px) {
+    .navigation__buttons{
+        display: none;
+
+    }
+
+    .navigation__bar__sub_container{
+        top: 20px;
+    }
+
+    .sub_navigation__buttons{
+        display: block;
+    }
+
+    .sub_navigation__buttons a{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+}
