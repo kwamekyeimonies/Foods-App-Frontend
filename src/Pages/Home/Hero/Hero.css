@@ -1,0 +1,8 @@
+.defaultHero{
+    min-height: calc(100vh - 77px);
+    background: url("../../../assets/food4.jpg") center/cover no-repeat;
+    /* background: url("../../../assets/bannerx.jpg"); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

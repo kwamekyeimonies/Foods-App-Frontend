@@ -31,7 +31,7 @@
     line-height: 25px;
     text-transform: capitalize;
     cursor: pointer;
-    color: black;
+    color: white;
 }
 
 .navigation__right{
@@ -81,6 +81,7 @@
 .navigation__header a{
     text-decoration: none;
     color: black;
+    font-size: 55px;
 }
 
 .navigation__buttons button,
