@@ -1,0 +1,36 @@
+/* .restaurant__img{
+    width: 100px;
+} */
+
+.delivery__main__body{
+    border: 2px;
+    text-align: center;
+}
+
+.delivery__main__body h3{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.delivery__main__body p{
+    font-size: 10px;
+}
+
+.delivery__main__row{
+    text-align: center;
+}
+
+.delivery__button{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.delivery__button a{
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    background: rgba(0, 128, 0, 0.509);
+    color: white;
+}

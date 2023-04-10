@@ -1,0 +1,46 @@
+.section__header a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section__header p{
+    text-align: center;
+    
+}
+
+.section__header h3{
+    font-size: 15px;
+    color: white;
+}
+
+.footer__main__header h3{
+    font-size: 20px;
+    color: white;
+
+}
+
+.footer__parent__container{
+    padding-top: 40px;
+}
+
+.footer__row{
+    text-align: center;
+}
+
+.section__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer__main__header{
+    text-align: left;
+}
+  

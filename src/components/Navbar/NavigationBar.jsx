@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine} from "react-icons/ri"
 import "./NavigationBar.css"
+import { Container } from 'react-bootstrap';
 
 const Menu =()=>(
   <>
@@ -33,74 +34,20 @@ const NavigationBar = () => {
   console.log(toggleMenu)
 
   return (
-   <div className='navigation__container'>
-    <div className='navigation__left'>
-      <div className='navigation__logo'>
-        <h1 className='navigation__header'>
-          <Link to="/">
-            Adziban Dzidzi
-          </Link>
-        </h1>
+   <Container fluid>
+    <div className='navigation_parent_section'>
+      <div className='navigation_left_section'>
+        <h3>Adziban Dzidzi</h3>
       </div>
-      <div className='navigation__links'>
-        <Menu />
-      </div>
-    </div>
-
-    
-      <div className='navigation__buttons'>
-        <p className='navigation__login__link'>
-          <Link to="/login">
-            Sign In
+      <div className='navigation_right_section'>
+        <p>
+          <Link to="/getstarted">
+            Get Started
           </Link>
         </p>
-        <button type='button'>
-          <Link to="/signup">
-            Sign Up
-          </Link>
-        </button>
       </div>
-    
-
-    <div className='navigation__sub_menu'>
-    {
-      toggleMenu
-      ? <RiCloseLine size={27} onClick={()=> setToggleMenu(false)}  />
-      : <RiMenu3Line size={27} onClick={()=> setToggleMenu(true)} />
-      
-    }
-    {toggleMenu && (
-
-    <div className='navigation__bar__sub_container scale__up__center'>   
-
-    <div className='sub_navigation__links'>
-      <Menu />
     </div>
-        
-   
-    <div className='sub_navigation__buttons'>
-      <p>
-        <Link to="/login">
-          Sign In
-        </Link>
-      </p>
-      <button type='button'>
-        <Link to="/signup">
-          Sign Up
-        </Link>
-      </button>
-    </div>
-    
-        
-    </div>
-
-    )
-      
-    }
-    </div>
-
-  
-   </div>
+   </Container>
   )
 }
 export default NavigationBar

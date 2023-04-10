@@ -1,20 +1,24 @@
-.banner{
-    color: rgb(253, 242, 242);
-    border-width: 10px;
-    border-color: rgb(188, 153, 197);
-    border-style: double;
-    width: 90vh;
-    min-height: calc(10hv - 40px);
-    text-align: center;
-    align-items: center;
+.banner {
+
+  min-height: calc(10hv - 40px);
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin: 0 auto; /* added centering */
 }
 
+@media screen and (max-width: 768px) {
+  .banner {
+    display: block;
+  }
+}
 
-h1{
-    font-size: 70px;
+.banner__body h1{
     font-weight: bolder;
+    font-size: 70px;
+
 }
 
-h4{
+.banner__body h4{
     font-size: 30px;
 }

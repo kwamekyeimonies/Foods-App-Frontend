@@ -4,56 +4,87 @@ import "./FoodContainer.css"
 const Foodcontainer = () => {
   return (
    <Container fluid>
-    <Row>
-        <Col>
+    <Row className="food__container__row">
+        <Col className="food__col">
             <img
             src={require("../../assets/food1.jpg")}
-            className="featured__foods"
+            className="featured_food"
             />
+           <div className="featured__food__name">
+            <p>Monies Pizza</p>
+           </div>
         </Col>
 
-        <Col>
+        <Col className="food__col">
         <img
-            src={require("../../assets/food1.jpg")}
-            className="featured__foods"
+            src={require("../../assets/food4.jpg")}
+            className="featured_food"
             />
+             <div className="featured__food__name">
+            <p>Monies Pizza</p>
+           </div>
         </Col>
 
-        <Col>
+        <Col className="food__col">
             <img
-            src={require("../../assets/food1.jpg")}
-            className="featured__foods"
+            src={require("../../assets/food2.jpg")}
+            className="featured_food"
             />
+             <div className="featured__food__name">
+            <p>Monies Pizza</p>
+           </div>
         </Col>
 
-        <Col>
+        <Col className="food__col">
             <img
             src={require("../../assets/food1.jpg")}
-            className="featured__foods"
+            className="featured_food"
             />
+             <div className="featured__food__name">
+            <p>Monies Pizza</p>
+           </div>
         </Col>
     </Row>
 
-    <Row>
-        <Col>
+    <Row  className="food__container__row">
+        <Col className="food__col">
             <img
-            src={require("../../assets/food1.jpg")}
-            className="featured__foods"
+            src={require("../../assets/food3.jpg")}
+            className="featured_food"
             />
+             <div className="featured__food__name">
+            <p>Monies Pizza</p>
+           </div>
         </Col>
 
-        <Col>
+        <Col className="food__col">
             <img
-            src={require("../../assets/food1.jpg")}
-            className="featured__foods"
+            src={require("../../assets/food2.jpg")}
+            className="featured_food"
             />
+             <div className="featured__food__name">
+            <p>Monies Pizza</p>
+           </div>
         </Col>
 
-        <Col>
+        <Col className="food__col">
             <img
             src={require("../../assets/food1.jpg")}
-            className="featured__foods"
+            className="featured_food"
             />
+             <div className="featured__food__name">
+            <p>Monies Pizza</p>
+           </div>
+        </Col>
+
+        <Col className="food__col">
+            <img
+            src={require("../../assets/food4.jpg")}
+            className="featured_food"
+            />
+             <div className="featured__food__name">
+            <p>Monies Pizza</p>
+           </div>
         </Col>
     </Row>
 

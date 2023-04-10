@@ -1,5 +1,29 @@
-.featured__foods{
-    width: 30vh;
-    height: 30vh;
-    border-radius: 10px;
+.food__container__row{
+    text-align: center;
+}
+
+.featured_food{
+    width: 100px;
+    height: 100px;
+    border-radius: 20% 0 50% 10%;
+    outline: 0;
+}
+/* 
+.food__col{
+    background: rgba(255, 255, 0, 0.239);
+    padding-top: 20px;
+    margin: 10px;
+    
+} */
+
+.featured__food__name{
+    text-align: center;
+    margin-top: 9px;
+   
+}
+
+.featured__food__name p{
+    font-size: 15px;
+    font-weight: 600;
+    
 }

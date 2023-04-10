@@ -1,4 +1,22 @@
-.featured__foods{
+.featured__food{
     margin-top: 10vh;
-    border: 3px black solid;
+    text-align: center;
+    padding-bottom: 30px;    
+}
+
+.featured__food h3{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.devlivered__header{
+   
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.devlivered__header h3{
+     font-weight: 600;
+     font-size: 30px;
 }
